@@ -10,6 +10,7 @@ user = student;
 
 console.log(user);
 
+console.log('-----------');
 
 let test = 1;
 
@@ -25,31 +26,34 @@ console.log(test);
 
 console.log(!!test);
 
+console.log('-----------');
 
-let array = [2, 3, 5, 8];
+let array1 = [2, 3, 5, 8];
 
 let result = 1;
 
-for (let i = 0; i < array.length; i++){
-    result *= array[i];
+for (let i = 0; i < array1.length; i++){
+    result *= array1[i];
 }
 
 console.log(result);
 
+console.log('-----------');
 
-let array = [2, 5, 8, 15, 0, 6, 20, 3];
+let array2 = [2, 5, 8, 15, 0, 6, 20, 3];
 
-for (let i = 0; i < array.length; i++) {
-    if (array[i] > 5 && array[i] < 10) {
-        console.log(array[i]);
+for (let i = 0; i < array2.length; i++) {
+    if (array2[i] > 5 && array2[i] < 10) {
+        console.log(array2[i]);
     };
 };
 
+console.log('-----------');
 
-let array = [2, 5, 8, 15, 0, 6, 20, 3];
+let array3 = [2, 5, 8, 15, 0, 6, 20, 3];
 
-for (let i = 0; i < array.length; i++) {
-    if (array[i]%2 === 0){
-        console.log(array[i]);
+for (let i = 0; i < array3.length; i++) {
+    if (array3[i]%2 === 0 && array3[i] !== 0){
+        console.log(array3[i]);
     }
 }
